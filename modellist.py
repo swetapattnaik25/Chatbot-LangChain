@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#<<<<<<< HEAD
 import os
 from dotenv import load_dotenv
 from google import genai
@@ -8,7 +8,7 @@ for model in client.models.list():
     print(model.name)
 
 
-=======
+#=======
 import os
 from dotenv import load_dotenv
 from google import genai
@@ -18,5 +18,5 @@ for model in client.models.list():
     print(model.name)
 
 
->>>>>>> 01db78518a6ac0279342c326f00d943b80072dac
+#>>>>>>> 01db78518a6ac0279342c326f00d943b80072dac
 #use google ai studio for api key for model 
