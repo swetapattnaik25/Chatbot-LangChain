@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from dotenv import load_dotenv
 import os
 
@@ -26,7 +26,7 @@ while True:
 
     #print("Gemini:", response.content)
     answer=response.content
-=======
+
 from dotenv import load_dotenv
 import os
 
@@ -54,5 +54,4 @@ while True:
 
     #print("Gemini:", response.content)
     answer=response.content
->>>>>>> 01db78518a6ac0279342c326f00d943b80072dac
     print(answer[0]["text"])
